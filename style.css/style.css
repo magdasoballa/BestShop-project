@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 70vw;
+}
+
+header.page-header {
+    width: 100vw;
+    height: 70px;
+    box-shadow: 0 3px 6px #00000029;
+
+}
+
+.page-header .container {
+    width: 952px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.page-header .container .logo {
+    color: #08A6E4;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.page-nav-list {
+    display: flex;
+}
+
+.page-nav-list a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #A5A5A5;
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.page-nav-list a:hover {
+    color: black;
+}
+
+section.sec-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 712px;
+    width: 100%;
+    margin-top: 130px;
+    position: relative;
+}
+
+section.sec1 img {
+    position: absolute;
+    bottom: 0;
+}
+
+section.sec-1 h1 {
+    font-size: 57px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+section.sec-1 p {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 50px 0;
+}
+
+section.sec-1 button {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background-color: #08A6E4;
+    width: 440px;
+    height: 67px;
+    border-radius: 40px;
+    border: none;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.sec-2 {
+    height: 531px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+
+}
+
+.sec-2 h2.title {
+    font-size: 36px;
+    text-align: center;
+    /*margin-top: 60px;*/
+    margin-bottom: 50px;
+    padding-top: 60px;
+
+}
+
+.sec-2 .statistics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dot {
+    height: 63px;
+    width: 63px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.dot--1 {
+    background-color: #FB3B64;
+}
+
+.dot--2 {
+    background-color: #08A6E4;
+}
+
+.dot--3 {
+    background-color: #55DFB4;
+}
+
+.sec-2 .statistics .article {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+}
+
+.sec-2 .statistics .article h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sec-2 .statistics .article h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.sec-2 .statistics .article img {
+    top: 7px;
+    position: absolute;
+    left: 38px;
+
+}
+
+.sec-3 {
+    height: 1395px;
+    /*margin-top: 70px;*/
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.sec-3 .article {
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+    background-color: #fff;
+    height: 370px;
+    border: 1px solid #E8E9ED;
+
+}
+
+.sec-3 .article .content-1 {
+    width: 50%;
+}
+
+.sec-3 .article .content-1 h1 {
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    margin: 40px 20px;
+}
+
+.sec-3 .article .content-1 p {
+    margin: 40px 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.sec-3 .article .content-1 .line {
+    border: 2px solid #FB3B64;
+    margin-left: 20px;
+    margin-right: 70px;
+
+
+}
+
+.sec-3 .article .content-2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-3 .article .content-2 .rectangle {
+    background: #FB3B64;
+    width: 195px;
+    height: 195px;
+    border-radius: 41px;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    position: relative;
+
+}
+
+
+.sec-3 .article .content-2 img {
+    width: 200px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.sec-3 .article:nth-of-type(2) {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.sec-3 .article:nth-of-type(3) .content-2 div {
+    background-color: #55DFB4;
+    width: 90%;
+    height: 100%;
+}
+
+.sec-4 {
+    width: 100vw;
+    background-color: #fff;
+}
+
+.sec-4 h1 {
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.pricing-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.pricing-wrapper .article {
+    height: 380px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #FB3B64;
+    border-radius: 18px;
+    position: relative;
+}
+
+.pricing-wrapper .article h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.pricing-wrapper .article h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 46px;
+    color: #FB3B64;
+    margin-bottom: 40px;
+}
+
+.pricing-wrapper .article ul {
+    line-height: 2em;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.pricing-wrapper .article button {
+    background: #EB476E;
+    border-radius: 23px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    position: absolute;
+    bottom: -20px;
+    left: 56px
+}
+
+
+.pricing-wrapper .article:hover {
+    height: 400px;
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+
+.sec-5 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.sec-5 .questions h1 {
+    font-size: 49px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+}
+
+.sec-5 .questions span {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.sec-5 .questions .info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    color: #A5A5A5
+}
+
+.sec-5 .questions .info img,
+.sec-5 .questions .info p {
+    margin-right: 10px;
+}
+
+
+.sec-5 .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.sec-5 .contact h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    color: #08A6E4;
+    margin-bottom: 30px;
+}
+
+.sec-5 .contact .line-1 {
+    background-color: #A5A5A5;
+    height: 3px;
+}
+
+.sec-5 .contact label {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #707070;
+    margin-top: 30px;
+}
+
+.sec-5 .contact button {
+    width: 226px;
+    height: 57px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    background-color: #08A6E4;
+    border-radius: 35px;
+    border: none;
+    align-self: flex-end;
+    box-shadow: 5px 10px 14px #07ACE629;
+    margin-top: 30px;
+}
